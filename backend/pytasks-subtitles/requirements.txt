@@ -1,3 +1,0 @@
-numpy==1.21.5
-yt_dlp==2024.10.22
-faster_whisper==1.0.3
