@@ -1,0 +1,130 @@
+    body{
+        background-color: black;
+        color: white;
+    }
+    .page{
+        font-family: 'Merriweather Sans';
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        font-weight: bold;
+
+    }
+    .text {
+        font-size: 12vh;
+        margin-top: 6%;
+        display: inline-block;
+        letter-spacing: 8px;
+        border-right: 5px solid;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 10ch; 
+        background: rgb(198,198,241);
+        background: linear-gradient(90deg, rgba(198,198,241,1) 12%, rgba(117,152,244,1) 35%, rgba(0,212,255,1) 100%); 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: typing 2s steps(18, end), cursor 0.4s step-end infinite alternate;
+    }
+    @keyframes cursor {
+        50% { border-color: transparent; }
+    }
+
+    @keyframes typing {
+        from { width: 0; }
+        to { width: 10ch; }
+    }
+
+    .form-link{
+        border-radius: 12px;
+        border-style: solid;
+        width: 40%;
+        height: 5vh;
+        font-family: 'Roboto Mono';
+    }
+    .insert-link{
+        margin-top: -8vh;
+        font-weight: 900;
+        font-size: 22px;
+    }
+    .send-btn{
+        border-radius: 12px;
+        border-style: solid;
+        height: 6vh;
+        cursor: pointer;    
+        font-family: 'Roboto Mono';
+    }
+    .upload-video{
+        font-size: 18px;
+        font-weight: 900;
+    }
+    .upload-btn{
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        position: relative;
+        background-color: #505050;
+        height: 14vh;
+        margin-left: 40%;
+        margin-right: 40%;
+        border-radius: 16px;
+        border-style: solid;   
+    }
+    .upload-icon{
+        filter: invert(1);
+        width: 7vh;
+        height: 7vh;
+        margin-top: 2vh;
+        cursor: pointer;
+    }
+    .upload-text{
+        margin: 0;
+    }
+    .authors{
+        margin-top: 12vh;
+    }
+    .generated-sub{
+        font-family: 'Merriweather Sans';
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        font-weight: bold;
+        font-size: 48px;
+        margin-top: 26vh;
+        background: rgb(198,198,241);
+        background: linear-gradient(90deg, rgba(198,198,241,1) 12%, rgba(117,152,244,1) 35%, rgba(0,212,255,1) 100%); 
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .id{
+        font-family: 'Merriweather Sans';
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        font-weight: bold;
+        font-size: 22px;
+        margin-top: -4vh;
+    }
+    .buttons-dwn{
+        display: flex;
+    }
+    .download {
+        font-family: 'Merriweather Sans';
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        font-weight: bold;
+        font-size: 22px;
+        margin-top: 6vh;
+        margin-left: 70vh;
+        margin-right: 5vh;
+        }
+    .new-download{
+        display: flex;
+        font-family: 'Merriweather Sans';
+        justify-content: center;
+        text-align: center;
+        font-weight: bold;
+        font-size: 22px;
+        margin-top: 6vh;
+    }
+    

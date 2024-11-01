@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css2?family=Merriweather+Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <div class="title">
+            <p class="text">MagaluSubs</p>
+        </div>    
+        <div class="insert-link">
+            <p>Insira um link para o vídeo</p>
+            <div>
+                <input class="form-link" placeholder="Upload a link">
+                <button class="send-btn" onsubmit="">Enviar</button>
+            </div>
+        </div>
+        <div class="upload-video">
+            <p>ou</p>
+            <form class="upload-btn" action="upload_url" method="post" enctype="multipart/form-data" accept="video/*"> 
+                <label for="file-upload">
+                    <img class="upload-icon" src="./icons/upload.png">
+                    <p id="file-name" class="upload-text">Envie um vídeo</p>
+                </label>
+                <input id="file-upload" type="file" name="video" style="display: none;" accept="video/*" onchange="showFileName()">
+            </form>        
+        </div>
+        <div class="authors">
+            <p>Uma aplicação feita para gerar legendas de vídeos visando acessibilidade. Nesse projeto integramos Terraform, Whisper, Python e PostgreSQL :)</p>
+            <p>Desenvolvido com carinho pelo Boituva, Zé e Breno - Hackathon Magalu 2024.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
